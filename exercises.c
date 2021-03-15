@@ -14,7 +14,7 @@ y en c almacena el valor de la suma de a más b.
 void suma(int a, int b, int * c) 
 {
   //c = NULL;
-  
+  //if(a!=0 && b!=0)
    *c = a + b ;
    printf("%d + %d = %d",a,b,*c);
 }
