@@ -13,8 +13,6 @@ y en c almacena el valor de la suma de a más b.
 
 void suma(int a, int b, int * c) 
 {
-  //c = NULL;
-  //if(a!=0 && b!=0)
    *c = a + b ;
    //printf("%d + %d = %d",a,b,*c);
 }
@@ -61,11 +59,8 @@ typedef struct {
 
 Persona* crearPersona(char nombre[], char rut[], int edad) {
   
-  /*scanf("%[^'\n']s",nombre);
-  getchar();
-  printf("%s",nombre);
-  scanf("%[^'\n']s",rut);
-  scanf("%d",&edad);*/
+  //Persona p[1];
+  
    return NULL;
 }
 
@@ -83,9 +78,9 @@ typedef struct {
 } Vector;
 
 Vector * crearVector(int n) {
-  Vector *vtr = malloc(n *sizeof(Vector));
-
-   return vtr;
+  //Vector *vtr = calloc(n, sizeof(Vector));
+  //vtr[0].capacidad = (int) calloc(n,sizeof(int));
+   return NULL ;
 }
 
 /*
