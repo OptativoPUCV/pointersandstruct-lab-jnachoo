@@ -60,8 +60,10 @@ typedef struct {
 
 
 Persona* crearPersona(char nombre[], char rut[], int edad) {
-  /*
-  scanf("%[^'\n']s",nombre);
+  
+  /*scanf("%[^'\n']s",nombre);
+  getchar();
+  printf("%s",nombre);
   scanf("%[^'\n']s",rut);
   scanf("%d",&edad);*/
    return NULL;
@@ -82,6 +84,7 @@ typedef struct {
 
 Vector * crearVector(int n) {
   Vector *vtr = malloc(n *sizeof(Vector));
+
    return vtr;
 }
 
@@ -91,7 +94,12 @@ Programe la función void asignarValor(Vector * v, int i, int valor),
 la cual asigna el valor a la posición i del vector v.
 */
 void asignarValor(Vector * v, int i, int valor) {
+  //int k;
 
+  //for(k=0 ; i>k ; k++)
+  //{
+    //v[k] = valor;
+  //}
 }
 
 /*
