@@ -85,11 +85,12 @@ typedef struct {
 } Vector;
 
 Vector * crearVector(int n) {
-  Vector *vtr = malloc(sizeof(Vector)*n);
+  Vector *vtr = malloc(sizeof(Vector)*1);
+
   vtr->datos = calloc(n,sizeof(int)) ;
 
   vtr->capacidad = n-1;
-
+  printf("N:%d   %d",n,vtr->capacidad);
    return vtr ;
 }
 
