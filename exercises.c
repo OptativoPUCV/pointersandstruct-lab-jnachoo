@@ -103,7 +103,7 @@ void asignarValor(Vector * v, int i, int valor) {
   printf("  %d  ",i);
   printf("  .%d.  ",valor);
   //v[i].capacidad =valor;
- printf(" [] %d]  ",v[i].capacidad);
+ printf(" [ %d]  ",v[i].capacidad);
 }
 
 /*
