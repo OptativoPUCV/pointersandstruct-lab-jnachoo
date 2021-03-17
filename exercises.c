@@ -87,10 +87,10 @@ typedef struct {
 Vector * crearVector(int n) {
   Vector *vtr = malloc(sizeof(Vector)*1);
 
-  vtr->datos =(int*) calloc(n,sizeof(int)) ;
+  //vtr->datos =(int*) calloc(n,sizeof(int)) ;
 
   vtr->capacidad = n;
-  //printf("N:%d   %d",n,vtr->capacidad);
+  //printf("N:%d   %d",n,vtr->datos);
    return vtr ;
 }
 
@@ -103,7 +103,7 @@ void asignarValor(Vector * v, int i, int valor) {
   printf("  %d  ",i);
   printf("  .%d.  ",valor);
   //v[i].capacidad =valor;
- printf(" [ %d]  ",v[i].capacidad);
+ //printf(" [ %d]  ",v[i]->datos);
 }
 
 /*
