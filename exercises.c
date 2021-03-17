@@ -104,7 +104,7 @@ void asignarValor(Vector * v, int i, int valor) {
   printf("  .%d.  ",valor);
   v->datos[i] =  valor;
   //obtenerValor(v,i);
-  //printf(" [ %d]  ",&v[i].datos);
+  printf(" [ %d]  ",v->datos[i]);
 }
 
 /*
