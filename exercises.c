@@ -102,8 +102,8 @@ la cual asigna el valor a la posición i del vector v.
 void asignarValor(Vector * v, int i, int valor) {
   printf("  %d  ",i);
   printf("  .%d.  ",valor);
-  *v->datos = valor;
- //printf(" [ %d]  ",v[i]->datos);
+  v[i].datos =  &valor;
+  //printf(" [ %d]  ",&v[i].datos);
 }
 
 /*
@@ -112,6 +112,7 @@ Programe la función int obtenerValor(Vector * v, int i),
 la cual retorna el valor en la posición i del vector v.
 */
 int obtenerValor(Vector * v, int i) {
+  printf("  {%d}  ",i);
    return 0;
 }
 
