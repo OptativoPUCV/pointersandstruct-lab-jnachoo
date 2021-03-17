@@ -89,7 +89,7 @@ Vector * crearVector(int n) {
 
   vtr->datos = calloc(n,sizeof(int)) ;
 
-  vtr->capacidad = n-1;
+  vtr->capacidad = n;
   printf("N:%d   %d",n,vtr->capacidad);
    return vtr ;
 }
