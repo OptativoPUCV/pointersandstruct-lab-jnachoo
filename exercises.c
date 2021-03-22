@@ -148,5 +148,5 @@ asignarValor(v1, 0, a1);
 asignarValor(v1, 1, a2);
 asignarValor(v2, 0, b1);
 asignarValor(v2, 1, b2);
-sumaV(v1, v2, c);
+//sumaV(v1, v2, c);
 }
