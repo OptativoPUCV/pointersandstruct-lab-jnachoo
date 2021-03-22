@@ -90,7 +90,7 @@ Vector * crearVector(int n) {
   vtr->datos = calloc(n+1,sizeof(int)) ;
 
   vtr->capacidad = n;
-  printf("N:%d   %d",n,*vtr->datos);
+  //printf("N:%d   %d",n,*vtr->datos);
    return vtr ;
 }
 
@@ -100,11 +100,11 @@ Programe la función void asignarValor(Vector * v, int i, int valor),
 la cual asigna el valor a la posición i del vector v.
 */
 void asignarValor(Vector * v, int i, int valor) {
-  printf("  %d  ",i);
-  printf("  .%d.  ",valor);
+  //printf("  %d  ",i);
+  //printf("  .%d.  ",valor);
   v->datos[i] =  valor;
   //obtenerValor(v,i);
-  printf(" [ %d]  ",v->datos[i]);
+  //printf(" [ %d]  ",v->datos[i]);
 }
 
 /*
